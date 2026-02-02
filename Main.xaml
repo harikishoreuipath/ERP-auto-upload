@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1324,30899.999999999996</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1410.4,31022.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -158,7 +158,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Workflow" sap:VirtualizedContainerService.HintSize="1334,30835.333333333332" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Workflow" sap:VirtualizedContainerService.HintSize="1334.4,30957.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="login_success" />
       <Variable x:TypeArguments="x:Boolean" Name="login_status" />
@@ -203,11 +203,7 @@
       <Variable x:TypeArguments="x:String" Name="Partner_Code" />
       <Variable x:TypeArguments="x:String" Name="file_name_send" />
       <Variable x:TypeArguments="x:String" Name="file_name_whatsapp" />
-      <Variable x:TypeArguments="x:Int32" Name="count">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="count" />
       <Variable x:TypeArguments="x:String" Name="Downloaded_FolderPath" />
       <Variable x:TypeArguments="x:String" Name="Latest_FileName" />
     </Sequence.Variables>
@@ -217,14 +213,14 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="1272,442.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_57">
+    <Sequence DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="1272,562.4" sap2010:WorkflowViewState.IdRef="Sequence_57">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign DisplayName="Login time" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="Assign_53">
+      <Assign DisplayName="Login time" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_53">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[Login_time]</OutArgument>
         </Assign.To>
@@ -232,7 +228,8 @@
           <InArgument x:TypeArguments="x:String">[Now.ToString("dd-MM-yyyy hh:mm:ss tt")]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="Assign_54">
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;drfcgvbhn&quot;]" />
+      <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_54">
         <Assign.To>
           <OutArgument x:TypeArguments="s:DateTime">[Login_Dt]</OutArgument>
         </Assign.To>
@@ -240,7 +237,7 @@
           <InArgument x:TypeArguments="s:DateTime">[DateTime.ParseExact(Login_time, "dd-MM-yyyy hh:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture)]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="Assign_55">
+      <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_55">
         <Assign.To>
           <OutArgument x:TypeArguments="s:DateTime">[Logout_Dt]</OutArgument>
         </Assign.To>
@@ -249,7 +246,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <Sequence DisplayName="whatsapp workflow" sap:VirtualizedContainerService.HintSize="1272,30242" sap2010:WorkflowViewState.IdRef="Sequence_58">
+    <Sequence DisplayName="whatsapp workflow" sap:VirtualizedContainerService.HintSize="1272,30243.2" sap2010:WorkflowViewState.IdRef="Sequence_58">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2800,11 +2797,7 @@
                                         <Variable x:TypeArguments="x:String" Name="Log_File" />
                                         <Variable x:TypeArguments="x:Boolean" Name="LogFile_Exists" />
                                         <Variable x:TypeArguments="x:String" Name="Read_Text_Output" />
-                                        <Variable x:TypeArguments="x:Int32" Name="before_files">
-                                          <Variable.Default>
-                                            <Literal x:TypeArguments="x:Int32" />
-                                          </Variable.Default>
-                                        </Variable>
+                                        <Variable x:TypeArguments="x:Int32" Default="0" Name="before_files" />
                                         <Variable x:TypeArguments="x:Int32" Name="Now_files" />
                                       </Sequence.Variables>
                                       <sap:WorkflowViewStateService.ViewState>
