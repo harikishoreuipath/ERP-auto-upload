@@ -424,7 +424,7 @@
                                                 <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="434,53.333333333333336" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:05">
                                                   <ui:RetryScope.ActivityBody>
                                                     <ActivityAction>
-                                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="826.6666666666666,164" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                                         <Sequence.Variables>
                                                           <Variable x:TypeArguments="x:Boolean" Name="Re_Login" />
                                                         </Sequence.Variables>
@@ -3353,7 +3353,7 @@
                                             </If>
                                             <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="748.6666666666666,53.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                                               <ui:CommentOut.Body>
-                                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,473.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,474.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3466,7 +3466,7 @@
                                                                   </Assign.Value>
                                                                 </Assign>
                                                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,146" sap2010:WorkflowViewState.IdRef="LogMessage_29" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[String.Concat(&#xA;&quot;Parameters before API hit - file name: &quot;, If(file_name_send, &quot;NULL&quot;),&#xA;&quot; | loop &quot;, count.ToString,&#xA;&quot; | &quot;, If(HTTP_Code IsNot Nothing, HTTP_Code.ToString, &quot;NULL&quot;),&#xA;&quot; | file path: &quot;, If(Destination_Path, &quot;NULL&quot;),&#xA;&quot; | uploaded by: &quot;, If(uploader_name, &quot;NULL&quot;),&#xA;&quot; | extracted phone number: &quot;, If(Phone_number IsNot Nothing, Phone_number.ToString, &quot;NULL&quot;),&#xA;&quot; | Time: &quot;, If(hit_time, &quot;NULL&quot;)&#xA;)]" />
-                                                                <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://demo.tecdata.in/api/ocr/ocrUiPathUpload" sap:VirtualizedContainerService.HintSize="434,71.33333333333333" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="POST" StatusCode="[Status_response_code]" TimeoutMS="6000">
+                                                                <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://erp.tecdata.in/api/ocr/ocrUiPathUpload" sap:VirtualizedContainerService.HintSize="434,71.33333333333333" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="POST" StatusCode="[Status_response_code]" TimeoutMS="6000">
                                                                   <ui:HttpClient.Attachments>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="upload_files">[Destination_Path]</InArgument>
                                                                   </ui:HttpClient.Attachments>
