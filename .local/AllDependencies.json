@@ -21346,15 +21346,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tec00\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Whatsapp_Up",
       "projectName": "Whatsapp_Up",
-      "projectPath": "C:\\Users\\tec00\\OneDrive\\Documents\\UiPath\\ERP-auto-upload\\.local",
-      "packagesPath": "C:\\Users\\tec00\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tec00\\OneDrive\\Documents\\UiPath\\ERP-auto-upload\\.local"
+      "projectPath": "C:\\Users\\Administrator\\Downloads\\ERP_Auto_Upload_2 Groups\\.local",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Downloads\\ERP_Auto_Upload_2 Groups\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21390,7 +21390,7 @@
             "version": "[1.16.2, 1.16.2]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\tec00\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
