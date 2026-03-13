@@ -12,6 +12,12 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "moved_file_path&Sequence_1",
+        "Get_File_Name&Sequence_33",
+        "File_Info&Sequence_31",
+        "dtPartnerCount&Sequence_115",
+        "lastMailDate&Sequence_1",
+        "DB_Connection&Sequence_115",
         "Team_Name&Sequence_1",
         "Mob_No_Login&Sequence_1",
         "Group_Names&Sequence_1",
