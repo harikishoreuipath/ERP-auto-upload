@@ -112,6 +112,25 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "checking.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Destination_Path&Sequence_2",
+        "HTTP_Code&Sequence_2",
+        "file_name_send&Sequence_2",
+        "uploader_name&Sequence_2",
+        "Phone_number&Sequence_2",
+        "Status_response_code&Sequence_2",
+        "path&Sequence_2",
+        "output&Sequence_2",
+        "Team_type&Sequence_2",
+        "Team_name&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
